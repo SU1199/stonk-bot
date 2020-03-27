@@ -3,6 +3,7 @@ Bot which fetches latest stock info from yahoo finance and reports back on teleg
 ## Usage
 
 ### Server Deployment
+Replace 'TOKEN' with your bot's token.
 - Install the following python dependencies to your remote instance =>
 --Python 3.x
 --[TelegramPython wrapper]([https://github.com/python-telegram-bot/python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)) 
