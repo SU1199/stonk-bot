@@ -7,7 +7,7 @@ update_id = None
 instructions = "Enter '$<ticker> x' where x can be \nsum => summary \nltp => Last Traded Price \nmktcap => Market Cap \nchg => Day's price change \nprevclose => Previous Close Price \nopenprice => Opening Price \ndayrange => Day's price range \n52range => 52 Week Range\nvol => volume\npe => P/E Ratio \ndiv => Dividend Yields \n Example => $SPY sum \n Example-2 => $HDFCBANK.NS ltp"
 def main():
     global update_id
-    bot = telegram.Bot('959439724:AAGg6b6C3AczMQuMYunPPaJyJhVLXh_o57o')
+    bot = telegram.Bot('TOKEN')
     try:
         update_id = bot.get_updates()[0].update_id
     except IndexError:
